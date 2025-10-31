@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "evocore",
+  "version": "1.0.0",
+  "name": "EvoCore: Engine of Vital Origins",
+  "description": "A modular foundation that powers all Awakened worlds.",
+  "authors": ["DinoProo4ever"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.dinoproo.evocore.EvoCore"],
+    "client": ["com.dinoproo.evocore.EvoCoreClient"],
+    "fabric-datagen": ["com.dinoproo.evocore.EvoCoreDataGenerator"]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "fabric-api": "*",
+    "minecraft": ">=1.21.1",
+    "java": ">=21"
+  },
+  "icon": "assets/evocore/icon.png"
+}
